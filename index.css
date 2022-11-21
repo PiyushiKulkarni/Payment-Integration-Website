@@ -1,0 +1,105 @@
+ .body{
+  font-family: "Spartan", sans-serif;
+ }
+ .logo{
+    width: 200px;
+    margin-left: 100px;
+    
+ }
+ .links{
+    margin-left: 50px;
+    
+ }
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color:white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    margin-top: 70px;
+    padding-left: 50px;
+    color:black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    font-weight: 1000;
+    color: green;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: green;
+  }
+  .bg-img{
+    position: relative;
+}
+.bg{
+    width: 100%;
+    height: 60%;
+}
+  .Heading-1{
+    position: absolute;
+    right: 300px;
+    left: 300px;
+    text-align: center;
+    top: 20%;
+    color:white;
+    font-size: 50px;
+  }
+  .Subtext-1{
+    position: absolute;
+    right: 400px;
+    text-align: center;
+    top: 45%;
+    color:white;
+    font-size: 25px;
+  }
+  /*.donate{
+    position: absolute;
+    right: 300px;
+    left: 300px;
+    text-align: center;
+    top: 60%;
+    color:white;
+    font-size: 20px;
+    padding: 0.35em 1.2em;
+    border:  0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;      
+  }
+*/
+.donate{
+  width:200px;
+
+}
+a.donate{
+  position: absolute;
+  bottom: 200px;
+  right: 300px;
+   left: 630px;
+  display:inline-block;
+  padding: 10px 10px 10px 10px;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 ;
+  border-radius: 0.12em;
+  box-sizing:border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;
+}
+a.donate:hover{
+  color:rgb(12, 99, 99);
+  background-color: white;
+}

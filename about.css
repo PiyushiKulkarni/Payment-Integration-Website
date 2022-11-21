@@ -1,0 +1,142 @@
+
+
+.topnav {
+    background-color:white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    margin-top: 70px;
+    padding-left: 50px;
+    color:black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    font-weight: 1000;
+    color: green;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: green;
+  }
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(file:///D:/Web%20development/Payment+integration/material/banner-animal-crowdfunding.webp);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;  
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 30px;
+    color: white;
+}
+.content-section .content h3{
+    margin-top: 30px;
+    color:white;
+    font-size: 22px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 1;
+    color: white;
+}
+.content-section .content .button{
+    margin-top: 60px;
+}
+.content-section .content .button a{
+    background-color: #a7e2dc;
+    padding: 13px 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    /* background-color: #e99c29; */
+    background-color: transparent;
+    color: white;
+}
+.content-section .social{
+    margin:55px 57px;
+}
+.content-section .social i{
+    color: #a7e2dc;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    /* color: #3d3d3d; */
+    color: black;
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;  
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+}
+.centre{
+    background-color: black;
+    color: white;
+}
+
